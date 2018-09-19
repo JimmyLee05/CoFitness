@@ -24,8 +24,6 @@
 		37EFAC071C94C40F00D1DC76 /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFAC061C94C40F00D1DC76 /* Pomodoro.swift */; };
 		37EFAC091C94C83200D1DC76 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFAC081C94C83200D1DC76 /* State.swift */; };
 		500F5CB90521228091E7F7E3 /* Pods_Pomodoro_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148CAFFC1FB9901978BF0DF2 /* Pods_Pomodoro_Flow.framework */; };
-		8818FE0A2122CC3B00B94F82 /* Pomodoro Flow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8818FE072122CC3B00B94F82 /* Pomodoro Flow.xcdatamodeld */; };
-		8818FE0B2122CC3B00B94F82 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818FE092122CC3B00B94F82 /* CoreDataStack.swift */; };
 		8818FE0F2122CC5E00B94F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8818FE0D2122CC5E00B94F82 /* Main.storyboard */; };
 		8818FE122122CC8F00B94F82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818FE112122CC8F00B94F82 /* HomeViewController.swift */; };
 		8818FE142122CC9900B94F82 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818FE132122CC9900B94F82 /* CoreDataManager.swift */; };
@@ -33,6 +31,8 @@
 		882151882060BB4400ACF7F2 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 882151862060BB4400ACF7F2 /* thunder.mp3 */; };
 		8821518B2060EED800ACF7F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821518A2060EED800ACF7F2 /* AVFoundation.framework */; };
 		882F75062063AAF7005F4D6B /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F75052063AAF7005F4D6B /* GuideViewController.swift */; };
+		883E09C22151E39800778393 /* PomodoroFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883E09C02151E39800778393 /* PomodoroFlow.xcdatamodeld */; };
+		883E09C42151E3A100778393 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E09C32151E3A100778393 /* CoreDataManager.swift */; };
 		88A829B12063840E00705DD8 /* jianjie4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A829A42063840E00705DD8 /* jianjie4.jpg */; };
 		88A829B42063840E00705DD8 /* jianjie3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A829A72063840E00705DD8 /* jianjie3.jpg */; };
 		88A829B52063840E00705DD8 /* shopping.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88A829A82063840E00705DD8 /* shopping.gif */; };
@@ -319,8 +319,6 @@
 		37EFAC081C94C83200D1DC76 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		4C0F6F0D08259DA81A6EDBD7 /* Pods-Pomodoro Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomodoro Flow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pomodoro Flow/Pods-Pomodoro Flow.release.xcconfig"; sourceTree = "<group>"; };
 		520AA9F347580730A4C18ED1 /* Pods_Pomodoro_FlowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pomodoro_FlowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8818FE082122CC3B00B94F82 /* Pomodoroflow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pomodoroflow.xcdatamodel; sourceTree = "<group>"; };
-		8818FE092122CC3B00B94F82 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = PomodoroFlow/CoreDataStack.swift; sourceTree = SOURCE_ROOT; };
 		8818FE0E2122CC5E00B94F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8818FE112122CC8F00B94F82 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8818FE132122CC9900B94F82 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
@@ -329,6 +327,8 @@
 		882151862060BB4400ACF7F2 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thunder.mp3; path = ../thunder.mp3; sourceTree = "<group>"; };
 		8821518A2060EED800ACF7F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		882F75052063AAF7005F4D6B /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		883E09C12151E39800778393 /* Pomodoroflow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pomodoroflow.xcdatamodel; sourceTree = "<group>"; };
+		883E09C32151E3A100778393 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = PomodoroFlow/CoreDataManager.swift; sourceTree = SOURCE_ROOT; };
 		88A829A42063840E00705DD8 /* jianjie4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jianjie4.jpg; sourceTree = "<group>"; };
 		88A829A72063840E00705DD8 /* jianjie3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jianjie3.jpg; sourceTree = "<group>"; };
 		88A829A82063840E00705DD8 /* shopping.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shopping.gif; sourceTree = "<group>"; };
@@ -680,18 +680,9 @@
 			children = (
 				8818FE102122CC6600B94F82 /* Controller */,
 				8818FE0C2122CC4200B94F82 /* View */,
-				8818FE062122CC2900B94F82 /* Model */,
+				883E09BF2151E37A00778393 /* Model */,
 			);
 			name = Home;
-			sourceTree = "<group>";
-		};
-		8818FE062122CC2900B94F82 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8818FE092122CC3B00B94F82 /* CoreDataStack.swift */,
-				8818FE072122CC3B00B94F82 /* Pomodoro Flow.xcdatamodeld */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		8818FE0C2122CC4200B94F82 /* View */ = {
@@ -711,13 +702,6 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		8818FE162122CCD600B94F82 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		882151892060EED700ACF7F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,6 +710,22 @@
 				520AA9F347580730A4C18ED1 /* Pods_Pomodoro_FlowTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		883E09BF2151E37A00778393 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				883E09C32151E3A100778393 /* CoreDataManager.swift */,
+				883E09C02151E39800778393 /* PomodoroFlow.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88500CB22151E4500084A322 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		887B70ED207E08F800260034 /* Common */ = {
@@ -782,9 +782,9 @@
 		88D252E3207E09C000B35FB5 /* Run */ = {
 			isa = PBXGroup;
 			children = (
-				8818FE162122CCD600B94F82 /* View */,
-				88D252E6207E09D800B35FB5 /* Controller */,
 				88D252E4207E09C800B35FB5 /* Model */,
+				88500CB22151E4500084A322 /* View */,
+				88D252E6207E09D800B35FB5 /* Controller */,
 			);
 			path = Run;
 			sourceTree = "<group>";
@@ -1594,9 +1594,7 @@
 				882F75062063AAF7005F4D6B /* GuideViewController.swift in Sources */,
 				88ED7D312069DE6700F25510 /* Audio.swift in Sources */,
 				375850281B3B5B4A005628A0 /* RoundedButton.swift in Sources */,
-				8818FE0B2122CC3B00B94F82 /* CoreDataStack.swift in Sources */,
 				373799491B49DB6E0025260A /* SettingsViewController.swift in Sources */,
-				8818FE0A2122CC3B00B94F82 /* Pomodoro Flow.xcdatamodeld in Sources */,
 				88D36D9D20620016005F2B5A /* BgMusicViewController.swift in Sources */,
 				373BD3DB1C9B095A001C9790 /* UIColor+PomodoroFlow.swift in Sources */,
 				88ED7D2E2069DD9100F25510 /* UICountingLabel.m in Sources */,
@@ -1611,10 +1609,12 @@
 				88ED7EFF2069E5DF00F25510 /* AppSetting.swift in Sources */,
 				375347371B3AFF010089AB7F /* TimerViewController.swift in Sources */,
 				37EFAC091C94C83200D1DC76 /* State.swift in Sources */,
+				883E09C42151E3A100778393 /* CoreDataManager.swift in Sources */,
 				88ED7D192069D9AF00F25510 /* Animation.swift in Sources */,
 				375850261B3B50B0005628A0 /* EmptyRoundedButton.swift in Sources */,
 				376795701B52DDDD007E6CBC /* Scheduler.swift in Sources */,
 				378192051B40682D0016375D /* EmptyCell.swift in Sources */,
+				883E09C22151E39800778393 /* PomodoroFlow.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1891,14 +1891,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8818FE072122CC3B00B94F82 /* Pomodoro Flow.xcdatamodeld */ = {
+		883E09C02151E39800778393 /* PomodoroFlow.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8818FE082122CC3B00B94F82 /* Pomodoroflow.xcdatamodel */,
+				883E09C12151E39800778393 /* Pomodoroflow.xcdatamodel */,
 			);
-			currentVersion = 8818FE082122CC3B00B94F82 /* Pomodoroflow.xcdatamodel */;
-			name = "Pomodoro Flow.xcdatamodeld";
-			path = "../Pomodoro Flow.xcdatamodeld";
+			currentVersion = 883E09C12151E39800778393 /* Pomodoroflow.xcdatamodel */;
+			name = PomodoroFlow.xcdatamodeld;
+			path = ../PomodoroFlow.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -110,7 +110,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - CoreData
     lazy var managedObjectModel: NSManagedObjectModel = {
-        let modelURL = Bundle.main.url(forResource: "Pomodoro Flow", withExtension: "momd")
+        let modelURL = Bundle.main.url(forResource: "PomodoroFlow", withExtension: "momd")
         let managedObjectModel = NSManagedObjectModel.init(contentsOf: modelURL!)
         return managedObjectModel!
     }()
